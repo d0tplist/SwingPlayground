@@ -8,9 +8,6 @@ import java.awt.*;
  */
 public class Complex extends javax.swing.JPanel {
 
-    /**
-     * Creates new form Complex
-     */
     public Complex() {
         initComponents();
 
