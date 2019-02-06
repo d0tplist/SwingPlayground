@@ -6,15 +6,65 @@ import java.awt.*;
 public class GridPanel extends JPanel {
 
     private final Stroke in;
+    private boolean drawGrid = true;
 
+    @SuppressWarnings("all")
     public GridPanel() {
         super.setOpaque(false);
 
-        super.setPreferredSize(new Dimension(200, 200));
+        super.setForeground(Color.LIGHT_GRAY);
 
         in = new BasicStroke(1, BasicStroke.CAP_BUTT,
                 BasicStroke.JOIN_ROUND, 1.0f,
                 new float[]{1, 0, 1}, 2.0f);
+
+        JPopupMenu jPopupMenu = new JPopupMenu();
+
+        JCheckBoxMenuItem checkBoxMenuItem = new JCheckBoxMenuItem("Show Grid");
+        checkBoxMenuItem.setSelected(true);
+
+        JMenuItem menuItemRemove = new JMenuItem("Remove content");
+        menuItemRemove.addActionListener(event -> PlaygroundWindow.instance.load(null));
+
+        checkBoxMenuItem.addActionListener(event -> {
+            drawGrid = checkBoxMenuItem.isSelected();
+            repaint();
+        });
+
+        JMenuItem menuBackground = new JMenuItem("Change background");
+        JMenuItem menuForeground = new JMenuItem("Change grid color");
+        JMenuItem menuExample = new JMenuItem("Example");
+
+        menuBackground.addActionListener(event -> {
+            Color select_background = JColorChooser.showDialog(this, "Select background", Color.WHITE);
+
+            if (select_background != null) {
+                setBackground(select_background);
+            }
+        });
+
+        menuForeground.addActionListener(event -> {
+            Color select_background = JColorChooser.showDialog(this, "Select grid color", Color.LIGHT_GRAY);
+
+            if (select_background != null) {
+                setForeground(select_background);
+            }
+        });
+
+        menuExample.addActionListener(event -> {
+            JLabel label = new JLabel("This an example");
+            label.setIcon(new ImageIcon(GridPanel.class.getResource("/icons/doge.jpg")));
+            PlaygroundWindow.instance.load(label);
+        });
+
+
+        jPopupMenu.add(checkBoxMenuItem);
+        jPopupMenu.add(menuItemRemove);
+        jPopupMenu.add(menuBackground);
+        jPopupMenu.add(menuForeground);
+        jPopupMenu.add(menuExample);
+
+        setComponentPopupMenu(jPopupMenu);
 
     }
 
@@ -23,17 +73,20 @@ public class GridPanel extends JPanel {
 
     }
 
-    @SuppressWarnings("all")
     @Override
     public void paint(Graphics gr) {
 
         Graphics2D g = (Graphics2D) gr;
 
-        g.setColor(Color.WHITE);
+        g.setColor(getBackground());
         g.fillRect(0, 0, getWidth(), getHeight());
 
+        if (!drawGrid) {
+            super.paintChildren(g);
+            return;
+        }
 
-        g.setColor(Color.LIGHT_GRAY);
+        g.setColor(getForeground());
 
         g.setStroke(in);
 

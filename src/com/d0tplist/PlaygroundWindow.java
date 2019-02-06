@@ -139,8 +139,8 @@ public class PlaygroundWindow extends javax.swing.JPanel {
             return;
         }
 
-        bBackground.setText("Background: #" + Integer.toHexString(getComponent().getBackground().getRGB()).toUpperCase());
-        bForeground.setText("Background: #" + Integer.toHexString(getComponent().getForeground().getRGB()).toUpperCase());
+        bBackground.setText("Background: #" + Integer.toHexString(getComponent().getBackground().getRGB()).toUpperCase().substring(0, 6));
+        bForeground.setText("Foreground: #" + Integer.toHexString(getComponent().getForeground().getRGB()).toUpperCase().substring(0, 6));
     }
 
     private Component getComponent() {
@@ -165,6 +165,16 @@ public class PlaygroundWindow extends javax.swing.JPanel {
         container.removeAll();
 
         if (component == null) {
+            sHeight.setEnabled(false);
+            sWidth.setEnabled(false);
+            bForeground.setEnabled(false);
+            bBackground.setEnabled(false);
+            cbEnabled.setEnabled(false);
+            cbOpaque.setEnabled(false);
+
+            container.revalidate();
+            container.repaint();
+
             return;
         }
 
