@@ -1,5 +1,7 @@
 package com.d0tplist;
 
+import com.d0tplist.cases.Complex;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -33,6 +35,7 @@ public class GridPanel extends JPanel {
 
         JMenuItem menuBackground = new JMenuItem("Change background");
         JMenuItem menuForeground = new JMenuItem("Change grid color");
+        JMenuItem menuComplex = new JMenuItem("Add complex example");
         JMenuItem menuExample = new JMenuItem("Example");
 
         menuBackground.addActionListener(event -> {
@@ -58,10 +61,15 @@ public class GridPanel extends JPanel {
         });
 
 
+        menuComplex.addActionListener(event -> {
+            PlaygroundWindow.instance.load(new Complex());
+        });
+
         jPopupMenu.add(checkBoxMenuItem);
         jPopupMenu.add(menuItemRemove);
         jPopupMenu.add(menuBackground);
         jPopupMenu.add(menuForeground);
+        jPopupMenu.add(menuComplex);
         jPopupMenu.add(menuExample);
 
         setComponentPopupMenu(jPopupMenu);

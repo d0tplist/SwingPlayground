@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b545567-e553-4432-b798-6a5e62a2df76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/d0tplist/cases/HackyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/d0tplist/cases/NotAComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/d0tplist/cases/Complex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SwingPlayground.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SwingPlayground.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/d0tplist/ButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/d0tplist/cases/ButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingPlayground/com/d0tplist/GridPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingPlayground/com/d0tplist/GridPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SwingPlayground/com/d0tplist/PlaygroundWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwingPlayground/com/d0tplist/PlaygroundWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/d0tplist/GridPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/d0tplist/GridPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/d0tplist/PlaygroundWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/d0tplist/PlaygroundWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/d0tplist/SwingRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/d0tplist/SwingRun.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/d0tplist/cases/ButtonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,11 +60,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/d0tplist/cases/Complex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/d0tplist/GridPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
+            <state relative-caret-position="630">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -93,17 +99,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/d0tplist/PlaygroundWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
+            <state relative-caret-position="2730">
+              <caret line="182" column="56" selection-start-line="182" selection-start-column="56" selection-end-line="182" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+            <state relative-caret-position="345">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -122,8 +128,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Action" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,9 +154,10 @@
         <option value="$PROJECT_DIR$/src/com/d0tplist/cases/NotAComponent.java" />
         <option value="$PROJECT_DIR$/src/com/d0tplist/SwingRun.java" />
         <option value="$PROJECT_DIR$/src/com/d0tplist/cases/ButtonTest.java" />
-        <option value="$PROJECT_DIR$/src/com/d0tplist/GridPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/d0tplist/PlaygroundWindow.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/com/d0tplist/PlaygroundWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/d0tplist/GridPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/d0tplist/cases/Complex.java" />
       </list>
     </option>
   </component>
@@ -166,7 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,13 +228,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549431871396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549433290922" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -371,18 +378,19 @@
       <workItem from="1549430935192" duration="203000" />
       <workItem from="1549431154857" duration="257000" />
       <workItem from="1549431428655" duration="277000" />
-      <workItem from="1549431722241" duration="108000" />
+      <workItem from="1549431722241" duration="1306000" />
+      <workItem from="1549433135066" duration="89000" />
+      <workItem from="1549433240809" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20926000" />
+    <option name="totallyTimeSpent" value="22263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="195" y="239" width="1996" height="1097" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13422132" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13729508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -524,6 +532,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/d0tplist/asd.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/d0tplist/cases/ButtonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/d0tplist/CenterLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -535,6 +550,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7290">
           <caret line="509" column="26" selection-start-line="509" selection-start-column="26" selection-end-line="509" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/d0tplist/GridPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -552,6 +574,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/d0tplist/PlaygroundWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="182" column="56" selection-start-line="182" selection-start-column="56" selection-end-line="182" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/d0tplist/SwingRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3045">
@@ -559,31 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/d0tplist/GridPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/d0tplist/cases/Complex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/d0tplist/cases/ButtonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/d0tplist/PlaygroundWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+        <state relative-caret-position="480">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
